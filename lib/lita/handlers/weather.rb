@@ -4,7 +4,7 @@ module Lita
   module Handlers
     class Weather < Handler
 
-      def self.default_config(config)
+      def self.config(config)
         config.api_key = nil
       end
 
